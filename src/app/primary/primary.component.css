@@ -1,0 +1,82 @@
+.primary-page {
+    background-image: url('../seattle.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr
+
+
+
+}
+
+.buttons-container {
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    text-align: center;
+    align-self: center
+
+
+}
+
+img {
+    width: 400px;;
+    height: 300px;
+    border: red solid 2px;
+    margin-right: 3rem;
+    border-radius: 150%;
+}
+
+.mybutton {
+    background:seashell;
+    margin: 0 0 10px 10px;
+    size: auto;
+    color: black;
+    border-bottom: solid darkslategrey 2px;
+    border-right: olid darkslategrey 12px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 8em;
+    text-align: center;
+    color: seashell;
+    margin-top: 1opx;
+    margin-left: 10px
+}
+
+li, h4, p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem
+}
+
+button {
+    background: red;
+    color: white;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.modal-title {
+    text-align: center
+}
+
+.modal-header {
+    background: lightskyblue
+}
+
+.modal-footer {
+    background: seashell
+}
+
+.material-icons {
+    margin-left: 48%
+}
+
+.modal-content h4 {
+    font-size: 3rem
+}

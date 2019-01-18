@@ -1,0 +1,45 @@
+.footer-container {
+    background: seashell;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+.copyright-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    text-align: right;
+    margin-right: 2rem;
+    margin-top: 2rem
+}
+
+.logos-container {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    text-align: left;
+}
+
+/* social media icon styling */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 6px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
