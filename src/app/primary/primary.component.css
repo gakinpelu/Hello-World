@@ -78,6 +78,11 @@ button {
 
 }
 
+.buttons-container button {
+    background: rgb(66, 137, 218);
+    color: seashell
+}
+
 .modal-title {
     text-align: center
 }
