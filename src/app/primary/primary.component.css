@@ -7,8 +7,21 @@
     grid-template-rows: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr
 
+}
 
+.about-me-text {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    text-align: center;
+    align-self: center;
+}
 
+.about-me-text p {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: seashell;
+    font-size: 4rem
 }
 
 .buttons-container {
@@ -28,6 +41,10 @@ img {
     border: red solid 2px;
     margin-right: 3rem;
     border-radius: 150%;
+}
+
+a {
+    margin-bottom: 1rem
 }
 
 .mybutton {
